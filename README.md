@@ -161,3 +161,40 @@ Technician Support
 ### Outcome
 
 A searchable technician knowledge base was developed and can be used as the retrieval source for the Technician RAG workflow.
+
+
+## Day 5 – Prompt Design for Troubleshooting and Service Analysis
+
+### Objective
+
+Design structured prompts for troubleshooting customer technical issues and analyzing customer service information.
+
+### Work Completed
+
+* Designed a troubleshooting prompt for technical issues.
+* Designed a service analysis prompt using customer information.
+* Included churn indicators, service type, tenure, and monthly charges.
+* Connected relevant technician knowledge base information with the prompts.
+* Created a combined technician prompt for troubleshooting and service analysis.
+* Tested the prompts using sample customer information.
+
+### Prompt Workflow
+
+Customer Information
+↓
+Technical Issue and Symptoms
+↓
+Churn Indicators
+↓
+Knowledge Base Information
+↓
+Structured Technician Prompt
+↓
+Troubleshooting and Service Analysis
+↓
+Technician Recommendation
+
+### Outcome
+
+Structured prompts were developed to help technicians analyze customer technical issues and service-related information. The prompts can also serve as input templates for a future Technician RAG system.
+
